@@ -1,0 +1,22 @@
+Source: lliurex-jclic-shared
+Section: admin
+Priority: optional
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: llxsrchelper,debhelper (>= 7), zero-dev(>=0.36)
+Standards-Version: 3.8.5
+
+Package: lliurex-jclic-shared
+Architecture: any
+Section: admin
+Depends: n4d-apache, zero-center, ${misc:Depends}
+Description: LliureX Jclic Library Service for LliureX classrooms
+ This package combines the required apache and shared directories
+ configurations and tools, to provide Jclic Services in
+ the LliureX classrooms.
+
+Package: lliurex-jclic-aula
+Architecture: any
+Section: admin
+Depends: ${misc:Depends}
+Description: LliureX Jclic for clients.
+ Desktops for the people Jclic
