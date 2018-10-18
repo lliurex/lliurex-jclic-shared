@@ -2,8 +2,8 @@ Source: lliurex-jclic-shared
 Section: admin
 Priority: optional
 Maintainer: LliureX Team <lliurex@gva.es>
-Build-Depends: llxsrchelper,debhelper (>= 7), zero-dev(>=0.36)
-Standards-Version: 3.8.5
+Build-Depends: llxsrchelper,debhelper (>=10), zero-dev(>=0.36),python3-poinstaller
+Standards-Version: 4.1.2
 
 Package: lliurex-jclic-shared
 Architecture: any
