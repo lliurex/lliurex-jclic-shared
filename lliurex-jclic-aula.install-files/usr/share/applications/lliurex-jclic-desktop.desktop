@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Classroom JClic
+Name[en]=Classroom JClic 
+Name[es]=JClic en el aula
+Name[ca_ES@valencia]=JClic al aula
+Name[ca_ES.UTF-8@valencia]=JClic al aula
+Name[ca]=JClic al aula
+Comment=JClic activities
+Comment[en]=JClic activities
+Comment[es]=Actividades JClic del servidor del aula
+Comment[ca_ES@valencia]=Activitats JClic al servidor de l'aula
+Comment[ca_ES.UTF-8@valencia]=Activitats JClic al servidor de l'aula
+Comment[ca]=Activitats JClic al servidor de l'aula
+Exec=xdg-open http://jclic-aula/
+Icon=jclic-desktop
+Type=Application
+Categories=GNOME;Education
+

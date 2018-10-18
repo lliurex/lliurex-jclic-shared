@@ -1,0 +1,17 @@
+{
+    "linkid":"jclic-aula",
+    "link":"http://jclic-aula",
+    "icon":"jclic.png",
+    "fonticon":"icon-puzzle-piece",
+    "type": "resources",
+    "name": {
+        "default":"JCLic Resources",
+        "valencia":"Recursos JClic",
+        "es":"Recursos JClic"
+    },
+    "description": {
+        "default":"Shared resources for jclic",
+        "valencia":"Recursos compartits per a jclic",
+        "es":"Recursos compartidos para jclic"
+    }
+}

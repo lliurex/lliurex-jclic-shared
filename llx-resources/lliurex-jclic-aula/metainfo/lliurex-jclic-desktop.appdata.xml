@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>lliurex-jclic-desktop</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>Classroom JClic</name>
+<name xml:lang="en">Classroom JClic </name>
+<name xml:lang="es">JClic en el aula</name>
+<name xml:lang="ca_ES.UTF-8@valencia">JClic al aula</name>
+<name xml:lang="ca_ES@valencia">JClic al aula</name>
+<name xml:lang="ca">JClic al aula</name>
+<summary>JClic activities</summary>
+<summary xml:lang="en">JClic activities</summary>
+<summary xml:lang="es">Actividades JClic del servidor del aula</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Activitats JClic al servidor de l'aula</summary>
+<summary xml:lang="ca_ES@valencia">Activitats JClic al servidor de l'aula</summary>
+<summary xml:lang="ca">Activitats JClic al servidor de l'aula</summary>
+<description>
+<p>JClic activities</p>
+<p xml:lang="en">JClic activities</p>
+<p xml:lang="es">Actividades JClic del servidor del aula</p>
+<p xml:lang="ca_ES.UTF-8@valencia">Activitats JClic al servidor de l'aula</p>
+<p xml:lang="ca_ES@valencia">Activitats JClic al servidor de l'aula</p>
+<p xml:lang="ca">Activitats JClic al servidor de l'aula</p>
+</description>
+<categories>
+<category>GNOME</category>
+<category>Education</category>
+</categories>
+<icon type="stock">jclic-desktop</icon>
+<provides><binary>xdg-open</binary></provides>
+<keywords>
+<keyword>Classroom</keyword>
+<keyword>JClic</keyword>
+<keyword>aula</keyword>
+
+</keywords>
+<developer_name>Jclic</developer_name>
+</component>

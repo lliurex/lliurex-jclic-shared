@@ -1,0 +1,81 @@
+# Catalan translations for PACKAGE package.
+# Copyright (C) 2013 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# lliurex <munyoz_jaifay@gva.es>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-02 09:11+0200\n"
+"PO-Revision-Date: 2013-07-02 09:16+0200\n"
+"Last-Translator: lliurex <munyoz_jaifay@gva.es>\n"
+"Language-Team: Valencian\n"
+"Language: ca_ES@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lliurex-jclic-share-folder:5
+msgid ""
+"LliureX JClic shared, is a little app to manage shared JClic's libraries and"
+"\\n"
+msgstr ""
+"Gestió de biblioteques compartides del JClic és una aplicació xicoteta per a"
+"\\n"
+
+#: lliurex-jclic-share-folder:6
+msgid "activities into the classroom.\\n\\n"
+msgstr "gestionar les biblioteques i activitats del JClic dins de l'aula.\\n\\n"
+
+#: lliurex-jclic-share-folder:7
+msgid ""
+"To share these,  the  only  thing  you  must  do  is paste the libraries and"
+"\\n"
+msgstr ""
+"Per  a  compartir-les,  l'únic  que  has de fer és apegar les biblioteques i"
+"\\n"
+#: lliurex-jclic-share-folder:8
+msgid ""
+"activities you want, into the folder that will be shown after this message."
+"\\n\\n"
+msgstr ""
+"activitats dins de la carpeta que es mostrarà quan tanques este missatge."
+"\\n\\n"
+#: lliurex-jclic-share-folder:9
+msgid ""
+"This folder contains all jclic  and libraries shared at classroom server, to"
+"\\n"
+msgstr ""
+"Esta  carpeta  conté  totes  les biblioteques i activitats compartides en el"
+"\\n"
+#: lliurex-jclic-share-folder:10
+msgid ""
+"share  another  Jclic  library or activity,  please  paste it on this folder"
+"\\n"
+msgstr ""
+"servidor  de  l'aula,  per  a  compartir  una  altra  activitat tan sols cal"
+"\\n apegar-la ací  (crear una carpeta separada per a cada activitat"
+#: lliurex-jclic-share-folder:11
+msgid "(create a separate folder for each library is a good idea).\\n\\n"
+msgstr " o biblioteca\\npot ser una bona idea).\\n\\n"
+#: lliurex-jclic-share-folder:12
+msgid "All shared activities and libraries are under:\\n"
+msgstr "Totes les biblioteques i activitats compartides es troben en:\\n"
+#: lliurex-jclic-share-folder:13
+msgid "/net/server-sync/share/jclic-shared folder at\\n"
+msgstr "/net/server-sync/share/jclic-shared folder a \\n"
+#: lliurex-jclic-share-folder:14
+msgid "Places->Computer->File system.\\n\\n"
+msgstr "Llocs->Ordinador->Sistema de fitxers\\n\\n"
+#: lliurex-jclic-share-folder:15
+msgid ""
+"To use it you can find it at http://server/  on firefox  (JClic activities)."
+"\\n\\n"
+msgstr ""
+"Per a utilitzar-les, anar a http://server/ en el firefox (Activitats JClic)."
+"\\n\\n"
+#: lliurex-jclic-share-folder:16
+msgid "Enjoy it."
+msgstr "Gaudiu-ne."

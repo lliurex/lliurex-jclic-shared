@@ -1,0 +1,25 @@
+#!/bin/sh
+
+export TEXTDOMAIN="lliurex-jclic-shared"
+
+L1=$(gettext "LliureX JClic shared, is a little app to manage shared JClic's libraries and\n")
+L2=$(gettext "activities into the classroom.\n\n")
+L3=$(gettext "To share these,  the  only  thing  you  must  do  is paste the libraries and\n")
+L4=$(gettext "activities you want, into the folder that will be shown after this message.\n\n")
+L5=$(gettext "This folder contains all jclic  and libraries shared at classroom server, to\n")
+L6=$(gettext "share  another  Jclic  library or activity,  please  paste it on this folder\n")
+L7=$(gettext "(create a separate folder for each library is a good idea).\n\n")
+L8=$(gettext "All shared activities and libraries are under:\n")
+L9=$(gettext "/net/server-sync/share/jclic-shared folder at\n")
+L10=$(gettext "Places->Computer->File system.\n\n")
+L11=$(gettext "To use it you can find it at http://server/  on firefox  (JClic activities).\n\n")
+L12=$(gettext "Enjoy it.")
+
+MSG_INFO=$L1$L2$L3$L4$L5$L6$L7$L8$L9$L10$L11$L12
+
+PATH_TO_JCLIC="/net/server-sync/share/jclic-aula/"
+[ -d "$PATH_TO_JCLIC" ] || exit 1
+zenity --info --text="$MSG_INFO" --no-wrap
+nautilus "$PATH_TO_JCLIC"
+
+exit 0

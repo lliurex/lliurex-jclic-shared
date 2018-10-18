@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Paths
+TEMPLATES_PATH="/usr/share/lliurex-jclic-shared/templates/"
+NEW_LIBRARY_PATH="$1"
+
+if [ -z "$1" ]; then
+	echo "USAGE: $0 PATH_TO_LIBRARY"
+	exit 1
+fi
+
+# If not exists library path, we must create it
+[ -d "$NEW_LIBRARY_PATH" ] || mkdir -p "$NEW_LIBRARY_PATH"
+
+# Now copy templates file to the new path
+cp -f "$TEMPLATES_PATH*" "$NEW_LIBRARY_PATH/"
+
+exit 0

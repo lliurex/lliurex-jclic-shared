@@ -1,0 +1,16 @@
+{
+	"06_jclic_aula":{
+			"path" : "/net/server-sync/share/jclic-aula",
+			"perm" : 2775 , 
+			"owner" : "nobody",
+			"group" : "nogroup",
+			"acl" : [["-d -m","g:www-data:r-x"],["-d -m","g:10003:rwx"],["-d -m","g:10001:rwx"],["-d -m","g:10004:r-x"],["-d -m","u::rwx"],["-d -m","o::r-x"],["-d -m","m::rwx"],["-m","g:10003:rwx"],["-m","g:10001:rwx"],["-m","g:10004:r-x"],["-m","g:www-data:r-x"]]
+			},
+	"07_jclic_aula_upload":{
+			"path" : "/net/server-sync/share/jclic-aula/jclic_uploads/",
+			"perm" : 2775 , 
+			"owner" : "nobody",
+			"group" : "nogroup",
+			"acl" : [["-d -m","g:www-data:rwx"],["-d -m","g:10003:rwx"],["-d -m","g:10001:rwx"],["-d -m","g:10004:r-x"],["-d -m","u::rwx"],["-d -m","o::r-x"],["-d -m","m::rwx"],["-m","g:10003:rwx"],["-m","g:10001:rwx"],["-m","g:10004:r-x"],["-m","g:www-data:rwx"]]
+			}
+}

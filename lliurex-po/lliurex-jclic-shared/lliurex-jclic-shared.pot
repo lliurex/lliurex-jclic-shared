@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-02 09:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lliurex-jclic-share-folder:5
+msgid ""
+"LliureX JClic shared, is a little app to manage shared JClic's libraries and"
+"\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:6
+msgid "activities into the classroom.\\n\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:7
+msgid ""
+"To share these,  the  only  thing  you  must  do  is paste the libraries and"
+"\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:8
+msgid ""
+"activities you want, into the folder that will be shown after this message."
+"\\n\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:9
+msgid ""
+"This folder contains all jclic  and libraries shared at classroom server, to"
+"\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:10
+msgid ""
+"share  another  Jclic  library or activity,  please  paste it on this folder"
+"\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:11
+msgid "(create a separate folder for each library is a good idea).\\n\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:12
+msgid "All shared activities and libraries are under:\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:13
+msgid "/net/server-sync/share/jclic-shared folder at\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:14
+msgid "Places->Computer->File system.\\n\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:15
+msgid ""
+"To use it you can find it at http://server/  on firefox  (JClic activities)."
+"\\n\\n"
+msgstr ""
+
+#: lliurex-jclic-share-folder:16
+msgid "Enjoy it."
+msgstr ""

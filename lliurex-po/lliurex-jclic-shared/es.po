@@ -1,0 +1,85 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2013 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# lliurex <munyoz_jaifay@gva.es>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-02 09:11+0200\n"
+"PO-Revision-Date: 2013-07-02 09:15+0200\n"
+"Last-Translator: lliurex <munyoz_jaifay@gva.es>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lliurex-jclic-share-folder:5
+msgid ""
+"LliureX JClic shared, is a little app to manage shared JClic's libraries and"
+"\\n"
+msgstr ""
+"Gestión de bibliotecas compartidas de JClic,  es una pequeña aplicación para"
+"\\n"
+
+#: lliurex-jclic-share-folder:6
+msgid "activities into the classroom.\\n\\n"
+msgstr "gestionar las bibliotecas y actividades de JClic dentro del aula.\\n\\n"
+
+#: lliurex-jclic-share-folder:7
+msgid ""
+"To share these,  the  only  thing  you  must  do  is paste the libraries and"
+"\\n"
+msgstr ""
+"Para compartirlas,  lo  único  que  has  de hacer es pegar las bibliotecas y"
+"\\n"
+#: lliurex-jclic-share-folder:8
+msgid ""
+"activities you want, into the folder that will be shown after this message."
+"\\n\\n"
+msgstr ""
+"actividades dentro de la carpeta que se mostrará cuando cierre este mensaje."
+"\\n\\n"
+#: lliurex-jclic-share-folder:9
+msgid ""
+"This folder contains all jclic  and libraries shared at classroom server, to"
+"\\n"
+msgstr ""
+"Esta carpeta contiene todas las bibliotecas y actividades compartidas  en el"
+"\\n"
+#: lliurex-jclic-share-folder:10
+msgid ""
+"share  another  Jclic  library or activity,  please  paste it on this folder"
+"\\n"
+msgstr ""
+"servidor del aula,  para  compartir  otra  actividad  tan  solo péguela aquí"
+"\\n"
+#: lliurex-jclic-share-folder:11
+msgid "(create a separate folder for each library is a good idea).\\n\\n"
+msgstr "(crear una carpeta separada para cada actividad o biblioteca es una buena idea).\\n\\n"
+
+#: lliurex-jclic-share-folder:12
+msgid "All shared activities and libraries are under:\\n"
+msgstr "Todas las bibliotecas y actividades están en:\\n"
+
+#: lliurex-jclic-share-folder:13
+msgid "/net/server-sync/share/jclic-shared folder at\\n"
+msgstr "/net/server-sync/share/jclic-shared de\\n"
+
+#: lliurex-jclic-share-folder:14
+msgid "Places->Computer->File system.\\n\\n"
+msgstr "Lugares->Equipo->Sistema de archivos\\n\\n"
+
+#: lliurex-jclic-share-folder:15
+msgid ""
+"To use it you can find it at http://server/  on firefox  (JClic activities)."
+"\\n\\n"
+msgstr ""
+"Para utilizarlas, están en http://server/ en el firefox (Actividades JClic)."
+"\\n\\n"
+#: lliurex-jclic-share-folder:16
+msgid "Enjoy it."
+msgstr "Disfrutad."
