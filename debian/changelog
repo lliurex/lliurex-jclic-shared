@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.16) bionic; urgency=medium
+
+  * Adding ca@valencia
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 26 Jul 2019 11:30:49 +0200
+
 lliurex-jclic-shared (2.0.15) bionic; urgency=medium
 
   * Initial release for bionic
