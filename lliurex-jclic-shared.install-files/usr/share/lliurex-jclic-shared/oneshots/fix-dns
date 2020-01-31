@@ -1,10 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 
-import xmlrpclib
+import xmlrpc.client
 import os
 import os.path
 import shutil
+import ssl
 
 
 
@@ -20,7 +21,8 @@ def get_n4d_key():
 def get_variables():
 	
 	try:
-		c=xmlrpclib.ServerProxy("https://localhost:9779")
+		context=ssl._create_unverified_context()
+                c=xmlrpc.client.ServerProxy("https://localhost:9779",allow_none=True,context=context)
 		return c.get_variable_list("","VariablesManager",["INTERNAL_DOMAIN","HOSTNAME"])
 		
 	except:
@@ -41,13 +43,13 @@ try:
 	vars=get_variables()
 	
 	if os.path.exists(OLD_FILE):
-		print "OLD FILE FOUND!"
+		print("OLD FILE FOUND!")
 		if vars!=None:
 			line="cname=jclic-aula.%s,%s.%s\n"%(vars["INTERNAL_DOMAIN"],vars["HOSTNAME"],vars["INTERNAL_DOMAIN"])
 			f=open(OLD_FILE,"w")
 			f.write(line)
 			f.close()
-			print "OLD FILE FIXED"
+			print("OLD FILE FIXED")
 			old_file_found=True
 			letsgo=False
 		else:
@@ -96,7 +98,7 @@ try:
 	
 except Exception as e:
 	
-	print e
+	print(e)
 	
 	
 

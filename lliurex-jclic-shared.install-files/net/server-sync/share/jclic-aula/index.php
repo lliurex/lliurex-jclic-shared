@@ -145,12 +145,12 @@
 <!-- TEMPLATE FOR LOGIN PANEL -->
 <div id="wrapper">
 		<?php
-		
 			function validate($user, $pass){
 				try{
 
 				//$ret=system("python ./validate_user.py $user $pass");
-					$ret=exec("python ./validate_user.py $user $pass");
+					
+					$ret=exec("python3 ./validate_user.py $user $pass");
 					
 					//echo "RET IS:$ret\n";
 					if ($ret=="true") {
