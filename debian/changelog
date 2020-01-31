@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.17) bionic; urgency=high
+
+  * Migration to python3 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Fri, 31 Jan 2020 12:36:46 +0100
+
 lliurex-jclic-shared (2.0.16) bionic; urgency=medium
 
   * Adding ca@valencia
