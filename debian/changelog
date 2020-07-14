@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.18) bionic; urgency=medium
+
+  * Updated site to new server page
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 14 Jul 2020 11:52:04 +0200
+
 lliurex-jclic-shared (2.0.17) bionic; urgency=high
 
   * Migration to python3 
