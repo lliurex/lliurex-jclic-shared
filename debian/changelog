@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.19) bionic; urgency=medium
+
+  * Changed the permissions of the link json file to www-data
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 15 Jul 2020 12:30:18 +0200
+
 lliurex-jclic-shared (2.0.18) bionic; urgency=medium
 
   * Updated site to new server page

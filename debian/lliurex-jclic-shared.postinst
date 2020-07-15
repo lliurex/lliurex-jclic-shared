@@ -36,6 +36,8 @@ case $1 in
 		chmod g+w /net/server-sync/share/jclic-aula/jclic_uploads
 		setfacl -m group:www-data:rwx /net/server-sync/share/jclic-aula/jclic_uploads
 		setfacl -m default:group:www-data:rwx /net/server-sync/share/jclic-aula/jclic_uploads
+
+		chown www-data:www-data /var/lib/lliurex-www/links/jclic-aula.json || true
 	;;
 
 	*)
