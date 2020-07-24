@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.20) bionic; urgency=medium
+
+  * Fix tabs.
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 24 Jul 2020 10:18:12 +0200
+
 lliurex-jclic-shared (2.0.19) bionic; urgency=medium
 
   * Changed the permissions of the link json file to www-data
