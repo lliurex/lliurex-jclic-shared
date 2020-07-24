@@ -22,7 +22,7 @@ def get_variables():
 	
 	try:
 		context=ssl._create_unverified_context()
-                c=xmlrpc.client.ServerProxy("https://localhost:9779",allow_none=True,context=context)
+		c=xmlrpc.client.ServerProxy("https://localhost:9779",allow_none=True,context=context)
 		return c.get_variable_list("","VariablesManager",["INTERNAL_DOMAIN","HOSTNAME"])
 		
 	except:
