@@ -1,0 +1,42 @@
+#!/bin/sh
+set -e
+
+SYM_LINK="/var/www/jclic-aula"
+case "$1" in
+    remove)
+
+	if [ -e ${SYM_LINK} ] ; then
+
+		if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+
+			. /usr/share/apache2/apache2-maintscript-helper
+			apache2_invoke dissite jclic-aula
+			invoke-rc.d apache2 reload
+		fi
+		rm -rf $SYM_LINK
+	fi
+
+
+	if [ -f /usr/share/lliurex-www/srv/links/jclic-aula.json ]; then
+		rm -rf /usr/share/lliurex-www/srv/links/jclic-aula.json
+	fi
+	
+	sed -i -e "/cname=jclic-aula/d" /var/lib/dnsmasq/config/cname-server || true
+    ;;
+    upgrade|deconfigure)
+    
+    ;;
+    
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+#DEBHELPER#
+
+exit 0

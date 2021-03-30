@@ -1,0 +1,52 @@
+#!/bin/bash
+
+set -e 
+
+case $1 in 
+	configure)
+
+	
+		if dpkg --compare-versions "$2" lt 0.29; then
+			echo "Fixing jclic-aula dns configuration..."
+			/usr/share/lliurex-jclic-shared/oneshots/fix-dns || true
+			
+		fi
+		
+		if dpkg --compare-versions "$2" lt 0.30; then
+			
+			deb-systemd-invoke restart n4d || true
+			
+		fi
+		
+		
+		#DNS CONFIGURATION IS HANDLED BY DNS SERVER CONFIGURATION VIA ZERO-SERVER-WIZARD
+	
+		ln -s /net/server-sync/share/jclic-aula /var/www || true
+
+		 if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+			. /usr/share/apache2/apache2-maintscript-helper
+			apache2_invoke ensite jclic-aula
+			apache2_invoke enconf jclic-aula
+			invoke-rc.d apache2 reload
+		fi
+		
+		if [ ! -d /net/server-sync/share/jclic-aula/jclic_uploads ]; then
+			mkdir /net/server-sync/share/jclic-aula/jclic_uploads
+		fi
+		chmod g+w /net/server-sync/share/jclic-aula/jclic_uploads
+		setfacl -m group:www-data:rwx /net/server-sync/share/jclic-aula/jclic_uploads
+		setfacl -m default:group:www-data:rwx /net/server-sync/share/jclic-aula/jclic_uploads
+
+		chown www-data:www-data /var/lib/lliurex-www/links/jclic-aula.json || true
+	;;
+
+	*)
+	#echo "[DEBUG] Unknown action ..."
+	;;
+
+esac
+
+#DEBHELPER#
+
+exit 0
+
