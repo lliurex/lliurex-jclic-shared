@@ -10,7 +10,7 @@ try:
     username=sys.argv[1]
     password=sys.argv[2]
     
-    ret=c.validate_user(username, password).get('return',None)
+    ret=c.validate_user(username, password)
     
     if (('teachers' in ret[1])or('adm' in ret[1])):
         print('true')
