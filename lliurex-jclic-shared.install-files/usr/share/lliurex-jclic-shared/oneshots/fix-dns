@@ -23,7 +23,7 @@ def get_variables():
 	try:
 		context=ssl._create_unverified_context()
 		c=xmlrpc.client.ServerProxy("https://localhost:9779",allow_none=True,context=context)
-		return c.get_variable_list("","VariablesManager",["INTERNAL_DOMAIN","HOSTNAME"])
+		return c.get_variable_list(["INTERNAL_DOMAIN","HOSTNAME"]).get('return',None)
 		
 	except:
 		return None
@@ -92,7 +92,7 @@ try:
 		f.writelines(lines)
 		f.close()
 		shutil.move(TMP_FILE,DNS_FILE)
-		os.system("service dnsmasq restart")
+		os.system("systemctl restart dnsmasq.service")
 		
 		
 	
