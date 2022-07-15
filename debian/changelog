@@ -1,3 +1,9 @@
+lliurex-jclic-shared (2.0.31) focal; urgency=medium
+
+  * New local values to upload files & Fix bug with PMB configuration.
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 15 Jul 2022 08:03:52 +0200
+
 lliurex-jclic-shared (2.0.30) focal; urgency=medium
 
   * Adding php ini.
